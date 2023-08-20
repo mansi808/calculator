@@ -17,7 +17,7 @@ public class Command {
                     "The program stores variable assigned to integer values (variables can only contain letters).\n" +
                     "Variable value can be accessed by typing variable name (eg:'x', 'var1', 'buzznum').\n" +
                     "Variables can be reassigned (eg:'a=9','a=b','a= buzznum').\n" +
-                    "To view store variables enter \"/data\".\n" +
+                    "To view all variables enter \"/data\".\n" +
                     "To exit enter \"/exit\".\n");
         } else if (commandType.equalsIgnoreCase(exit)) {
             System.out.println("Bye!");
